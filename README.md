@@ -17,11 +17,6 @@ signing a meta transaction.
 5. Start a browser pointing to "http://localhost:3000"
 6. Click the "Capture the Flag" button. Notice that you do need an account with eth for that..
 
-You can see the integrations as GitHub pull requests:
-
-1. [Basic: Minimum viable GSN integration](https://github.com/opengsn/workshop/pull/1/files)
-2. [Advanced: Write your own custom Paymaster](https://github.com/opengsn/workshop/pull/2/files_)
-
 Note: on testnet we maintain a public service "pay for everything" paymaster so writing your own is not strictly
 required. On mainnet, you need a custom paymaster, such as a token paymaster that allow users to pay for gas in tokens,
 and exchanging them for ETH ETH on Uniswap. Dapps will want to develop their own custom paymaster in order, for example
